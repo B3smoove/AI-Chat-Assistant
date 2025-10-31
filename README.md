@@ -85,6 +85,10 @@ Open `frontend/index.html` in your web browser, or use VS Code's Live Server ext
 - `GET /health` - Health check
 - `POST /chat` - Send chat messages
 
+## Repository
+
+The source code for this project is available on GitHub: [https://github.com/B3smoove/AI-Chat-Assistant](https://github.com/B3smoove/AI-Chat-Assistant)
+
 ## Development
 
 - Backend: FastAPI with Python
