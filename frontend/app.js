@@ -6,7 +6,7 @@ class ChatApp {
         this.sendButton = document.getElementById("sendBtn");
         
         // Backend configuration
-        this.BASE_URL = "http://localhost:5000";
+        this.BASE_URL = "http://localhost:5001";
         this.API_ENDPOINT = `${this.BASE_URL}/chat`;
         
         // Set welcome message time
