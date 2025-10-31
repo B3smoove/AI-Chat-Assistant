@@ -6,8 +6,8 @@
 - [x] Create README.md
 - [x] Set up Python virtual environment
 - [x] Install Python dependencies
-- [ ] Guide user to obtain GitHub token
-- [ ] Update .env with GitHub token
-- [ ] Run backend server
-- [ ] Open frontend in browser
+- [x] Guide user to obtain GitHub token
+- [x] Update .env with GitHub token
+- [x] Run backend server
+- [x] Open frontend in browser
 - [ ] Test the application
