@@ -1,13 +1,8 @@
-# AI Chat Assistant Setup TODO
+# TODO: Push Local Code to GitHub Repository
 
-- [x] Create project directory structure
-- [x] Create backend files (api.py, llm.py, requirements.txt, .env)
-- [x] Create frontend files (index.html, app.js, styles.css)
-- [x] Create README.md
-- [x] Set up Python virtual environment
-- [x] Install Python dependencies
-- [x] Guide user to obtain GitHub token
-- [x] Update .env with GitHub token
-- [x] Run backend server
-- [x] Open frontend in browser
-- [ ] Test the application
+- [ ] Check if Git is initialized in the project directory
+- [ ] Add GitHub repository as remote origin
+- [ ] Add all files to Git staging area
+- [ ] Commit changes with message "Initial commit"
+- [ ] Push to the main branch on GitHub
+- [ ] Verify the push succeeded
