@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>🤖 AI Chat Assistant</h1>
+            <p>Ask me anything - I'm here to help!</p>
+        </header>
+        
+        <main class="chat-messages" id="messages" role="log" aria-live="polite">
+            <div class="message assistant welcome">
+                <div class="message-content">
+                    <span class="message-text">Hello! I'm your AI assistant. How can I help you today?</span>
+                    <span class="message-time" id="welcome-time"></span>
+                </div>
+            </div>
+        </main>
+        
+        <form class="chat-form" id="chatForm">
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Type your message here..." 
+                    required
+                    aria-label="Type your message"
+                    autocomplete="off"
+                >
+                <button type="submit" id="sendBtn" aria-label="Send message">
+                    Send
+                </button>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
