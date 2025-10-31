@@ -58,3 +58,10 @@ Open `frontend/index.html` in your web browser, or use VS Code's Live Server ext
 - Backend: FastAPI with Python
 - Frontend: Vanilla JavaScript, HTML, CSS
 - AI: GitHub Models API
+
+
+## Development
+
+- Backend: FastAPI with Python
+- Frontend: Vanilla JavaScript, HTML, CSS
+- AI: GitHub Models API
