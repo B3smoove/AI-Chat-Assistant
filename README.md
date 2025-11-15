@@ -94,3 +94,7 @@ The source code for this project is available on GitHub: [https://github.com/B3s
 - Backend: FastAPI with Python
 - Frontend: Vanilla JavaScript, HTML, CSS
 - AI: GitHub Models API
+
+## Author
+
+This project is built by Brian Smith, a computer science student at Georgia State University.

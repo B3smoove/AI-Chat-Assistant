@@ -1,13 +1,15 @@
 import os
-import openai
+from openai import OpenAI
 from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
 
 # Initialize OpenAI client for GitHub Models
-openai.api_key = os.environ.get("GITHUB_TOKEN", "")
-openai.api_base = "https://models.inference.ai.azure.com"
+client = OpenAI(
+    api_key=os.environ.get("GITHUB_TOKEN", ""),
+    base_url="https://models.inference.ai.azure.com"
+)
 
 def call_llm(prompt: str, system_message: str = "You are a helpful and friendly AI assistant."):
     """
@@ -21,7 +23,7 @@ def call_llm(prompt: str, system_message: str = "You are a helpful and friendly 
         AI response text
     """
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-4o",  # Use available model
             messages=[
                 {"role": "system", "content": system_message},
